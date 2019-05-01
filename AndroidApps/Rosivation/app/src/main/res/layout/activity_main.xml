@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20sp"
+
+        android:layout_marginBottom="30sp"
+
+        android:background="@android:color/holo_blue_light"
+
+        android:text="@string/click_the_button_to_receive_a_motivational_text"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="30sp"
+
+        android:background="@android:color/holo_orange_dark"
+
+        android:onClick="searchTitle"
+        android:text="@string/get_motivated"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+
+    <TextView
+
+        android:id="@+id/titleResult"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="30sp"
+
+        />
+
+
+    <TextView
+
+        android:id="@+id/authorResult"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="30sp"
+
+        />
+
+
+
+</LinearLayout>
